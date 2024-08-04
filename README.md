@@ -1,10 +1,9 @@
 # Simulator-based unsupervised detection and tracking of worms
 
 The model is based on https://coix.readthedocs.io/en/latest/examples/bmnist.html
+
 The simulator is taken from https://github.com/kirkegaardlab/deeptangle
-
 Data generation is in gen_worm_data.ipynb
-
 The model, inference program and training code are in wormsim_encoder_only.ipynb
 
 The model samples 
