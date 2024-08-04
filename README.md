@@ -3,8 +3,11 @@
 The model is based on https://coix.readthedocs.io/en/latest/examples/bmnist.html
 
 The simulator is taken from https://github.com/kirkegaardlab/deeptangle
+
 Data generation is in gen_worm_data.ipynb
+
 The model, inference program and training code are in wormsim_encoder_only.ipynb
+
 
 The model samples 
 1. Worm coordinates from the simulator (6 (x,y)-coordinates per worm)
@@ -17,4 +20,4 @@ The inference is amortized population Gibbs sampling (http://proceedings.mlr.pre
 2. A kernel that proposes the simulator parameters - parametrized by a GRU
 
 Training still doesn't quite work:
-![](https://github.com/deoxyribose/wormsim/worms.gif)
+![](https://github.com/deoxyribose/wormsim/blob/main/worms.gif)
