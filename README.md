@@ -21,3 +21,5 @@ The inference is amortized population Gibbs sampling (http://proceedings.mlr.pre
 
 Training still doesn't quite work:
 ![](https://github.com/deoxyribose/wormsim/blob/main/worms.gif)
+On the left is the original video, with frames over the inferred locations.
+On the right is reconstructed video.
