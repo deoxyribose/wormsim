@@ -19,7 +19,7 @@ The inference is amortized population Gibbs sampling (http://proceedings.mlr.pre
 1. A kernel per time step that proposes the location of each worm - all kernels are parametrized by the same encoder_where MLP
 2. A kernel that proposes the simulator parameters - parametrized by a GRU
 
-Training still doesn't quite work:
+Model is still far from convergence:
 ![](https://github.com/deoxyribose/wormsim/blob/main/worms.gif)
 On the left is the original video, with frames over the inferred locations.
 On the right is reconstructed video.
