@@ -19,7 +19,7 @@ The inference is amortized population Gibbs sampling (http://proceedings.mlr.pre
 1. A kernel per time step that proposes the location of each worm - all kernels are parametrized by the same encoder_where NN, which learns to map from the 64 x 64 frames to the mean and variance of the latent locations
 2. A kernel that proposes the simulator parameters - parametrized by a GRU, which learns to invert the simulator, i.e. map from the T x 28 x 28 worm frames to the simulator parameters that produce that worm
 
-Model is still far from convergence:
+Model is still far from convergence, longer training run is in progress:
 ![](https://github.com/deoxyribose/wormsim/blob/main/worms.gif)
 On the left is the original video, with frames over the inferred locations.
 On the right is reconstructed video.
