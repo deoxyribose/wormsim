@@ -20,6 +20,8 @@ The inference is amortized population Gibbs sampling (http://proceedings.mlr.pre
 2. A kernel that proposes the simulator parameters - parametrized by a GRU, which learns to invert the simulator, i.e. map from the T x 28 x 28 worm frames to the simulator parameters that produce that worm
 
 Model is still far from convergence, longer training run is in progress:
-![](https://github.com/deoxyribose/wormsim/blob/main/worms.gif)
+![](https://github.com/deoxyribose/wormsim/blob/main/worms_1.gif)
 On the left is the original video, with frames over the inferred locations.
 On the right is reconstructed video.
+
+![](https://github.com/deoxyribose/wormsim/blob/main/still_frames.png)
