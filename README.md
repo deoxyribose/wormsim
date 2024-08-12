@@ -26,3 +26,6 @@ On the left is the original video, with frames over the inferred locations.
 On the right is reconstructed video.
 
 ![](https://github.com/deoxyribose/wormsim/blob/main/still_frames.png)
+
+While detection and tracking is fairly reliable, reconstruction is not quite there yet:
+![](https://github.com/deoxyribose/wormsim/blob/main/worms_2.gif)
